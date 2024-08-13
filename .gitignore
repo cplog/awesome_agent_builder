@@ -16,3 +16,5 @@ htmlcov/
 .ipynb_checkpoints/
 .vscode/PythonImportHelper-v2-Completion.json
 .vscode/
+
+.env

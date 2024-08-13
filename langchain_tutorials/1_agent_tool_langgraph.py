@@ -161,9 +161,8 @@ if __name__ == "__main__":
 
     config = {
         "configurable": {
-            # The user_id is used in our flight tools to
-            # fetch the user's flight information
-            "user_id": "user12345",
+            # fetch the user's id
+            "user_id": "cplog",
             # Checkpoints are accessed by thread_id
             "thread_id": thread_id,
         }
@@ -171,7 +170,7 @@ if __name__ == "__main__":
 
     _printed = set()
     events = graph.stream(
-        {"messages": ("user", 'what about the AAPL stock price?')}, config, stream_mode="values"
+        {"messages": ("user", 'hi, who was born in 1992')}, config, stream_mode="values"
     )
     for event in events:
         _print_event(event, _printed)
