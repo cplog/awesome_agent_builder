@@ -10,11 +10,6 @@ Welcome to the **Tutorial Repository**! This repository offers comprehensive tut
 ## Detailed Guides
 For in-depth guides and explanations, please refer to our Medium articles: [Medium @cplog](https://medium.com/@cplog).
 
-## Getting Started
-To get started with the tutorials, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-repo/tutorial-repo.git`
-2. Navigate to the project directory: `cd tutorial-repo`
-3. Install the necessary dependencies: `pip install -r requirements.txt`
 
 ## Contributing
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) to get started.
