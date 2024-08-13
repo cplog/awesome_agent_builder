@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.vscode/PythonImportHelper-v2-Completion.json
+.vscode/
